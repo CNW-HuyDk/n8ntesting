@@ -1,0 +1,1551 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Seamless Wood Textures — Architextures</title>
+<meta property="og:title" content="Seamless Wood Textures — Architextures" />
+<meta name="description" content="Browse and download thousands of seamless textures for use in 3d models, drawings and moodboards" />
+<meta property="og:image" content="https://cdn.architextures.org/images/og/textures.jpg" />
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#eaece8">
+<link rel="icon" type="image/png" sizes="128x128" href="/img/icon128.png">
+<link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+<link href="/templates/style.css?v=133" rel="stylesheet" />
+<script>
+    artx = !window.artx ? {} : artx;
+    artx.mediaEndpoint = "https://cdn.architextures.org";
+    artx.titleSuffix = " — Architextures";
+    artx.cdn = artx.mediaEndpoint;
+    artx.initialPath = window.location.pathname;
+    artx.cdnOrigin = "https://artx.nyc3.cdn.digitaloceanspaces.com";
+    artx.plugin = false;
+    artx.isInModel = false;
+    artx.isInSaves = false;
+    artx.user = false;
+    artx.units = "mm";
+    artx.keysPressed = {};
+    artx.pro = false;
+    artx.devmode = false;
+    artx.browserName = "Chrome";
+    artx.browserVersion = 123;
+    artx.countries = [
+  {
+    "name": "Afghanistan",
+    "Iso2": "AF",
+    "Iso3": "AFG"
+  },
+  {
+  "name": "Albania",
+  "Iso2": "AL",
+  "Iso3": "ALB"
+  },
+  {
+  "name": "Algeria",
+  "Iso2": "DZ",
+  "Iso3": "DZA"
+  },
+  {
+  "name": "Andorra",
+  "Iso2": "AD",
+  "Iso3": "AND"
+  },
+  {
+  "name": "Angola",
+  "Iso2": "AO",
+  "Iso3": "AGO"
+  },
+  {
+  "name": "Anguilla",
+  "Iso2": "AI",
+  "Iso3": "AIA"
+  },
+  {
+  "name": "Antigua and Barbuda",
+  "Iso2": "AG",
+  "Iso3": "ATG"
+  },
+  {
+  "name": "Argentina",
+  "Iso2": "AR",
+  "Iso3": "ARG"
+  },
+  {
+  "name": "Armenia",
+  "Iso2": "AM",
+  "Iso3": "ARM"
+  },
+  {
+  "name": "Aruba",
+  "Iso2": "AW",
+  "Iso3": "ABW"
+  },
+  {
+  "name": "Australia",
+  "Iso2": "AU",
+  "Iso3": "AUS"
+  },
+  {
+  "name": "Austria",
+  "Iso2": "AT",
+  "Iso3": "AUT"
+  },
+  {
+  "name": "Azerbaijan",
+  "Iso2": "AZ",
+  "Iso3": "AZE"
+  },
+  {
+  "name": "Bahamas",
+  "Iso2": "BS",
+  "Iso3": "BHS"
+  },
+  {
+  "name": "Bahrain",
+  "Iso2": "BH",
+  "Iso3": "BHR"
+  },
+  {
+  "name": "Bangladesh",
+  "Iso2": "BD",
+  "Iso3": "BGD"
+  },
+  {
+  "name": "Barbados",
+  "Iso2": "BB",
+  "Iso3": "BRB"
+  },
+  {
+  "name": "Belarus",
+  "Iso2": "BY",
+  "Iso3": "BLR"
+  },
+  {
+  "name": "Belgium",
+  "Iso2": "BE",
+  "Iso3": "BEL"
+  },
+  {
+  "name": "Belize",
+  "Iso2": "BZ",
+  "Iso3": "BLZ"
+  },
+  {
+  "name": "Benin",
+  "Iso2": "BJ",
+  "Iso3": "BEN"
+  },
+  {
+  "name": "Bermuda",
+  "Iso2": "BM",
+  "Iso3": "BMU"
+  },
+  {
+  "name": "Bhutan",
+  "Iso2": "BT",
+  "Iso3": "BTN"
+  },
+  {
+  "name": "Bosnia and Herzegovina",
+  "Iso2": "BA",
+  "Iso3": "BIH"
+  },
+  {
+  "name": "Botswana",
+  "Iso2": "BW",
+  "Iso3": "BWA"
+  },
+  {
+  "name": "Bouvet Island",
+  "Iso2": "BV",
+  "Iso3": "BVT"
+  },
+  {
+  "name": "Brazil",
+  "Iso2": "BR",
+  "Iso3": "BRA"
+  },
+  {
+  "name": "British Indian Ocean Territory",
+  "Iso2": "IO",
+  "Iso3": "IOT"
+  },
+  {
+  "name": "Brunei",
+  "Iso2": "BN",
+  "Iso3": "BRN"
+  },
+  {
+  "name": "Bulgaria",
+  "Iso2": "BG",
+  "Iso3": "BGR"
+  },
+  {
+  "name": "Burkina Faso",
+  "Iso2": "BF",
+  "Iso3": "BFA"
+  },
+  {
+  "name": "Burundi",
+  "Iso2": "BI",
+  "Iso3": "BDI"
+  },
+  {
+  "name": "Cambodia",
+  "Iso2": "KH",
+  "Iso3": "KHM"
+  },
+  {
+  "name": "Cameroon",
+  "Iso2": "CM",
+  "Iso3": "CMR"
+  },
+  {
+  "name": "Canada",
+  "Iso2": "CA",
+  "Iso3": "CAN"
+  },
+  {
+  "name": "Cape Verde",
+  "Iso2": "CV",
+  "Iso3": "CPV"
+  },
+  {
+  "name": "Cayman Islands",
+  "Iso2": "KY",
+  "Iso3": "CYM"
+  },
+  {
+  "name": "Central African Republic",
+  "Iso2": "CF",
+  "Iso3": "CAF"
+  },
+  {
+  "name": "Chad",
+  "Iso2": "TD",
+  "Iso3": "TCD"
+  },
+  {
+  "name": "Chile",
+  "Iso2": "CL",
+  "Iso3": "CHL"
+  },
+  {
+  "name": "China",
+  "Iso2": "CN",
+  "Iso3": "CHN"
+  },
+  {
+  "name": "Christmas Island",
+  "Iso2": "CX",
+  "Iso3": "CXR"
+  },
+  {
+  "name": "Cocos (Keeling) Islands",
+  "Iso2": "CC",
+  "Iso3": "CCK"
+  },
+  {
+  "name": "Colombia",
+  "Iso2": "CO",
+  "Iso3": "COL"
+  },
+  {
+  "name": "Comoros",
+  "Iso2": "KM",
+  "Iso3": "COM"
+  },
+  {
+  "name": "Congo",
+  "Iso2": "CG",
+  "Iso3": "COG"
+  },
+  {
+  "name": "Cook Islands",
+  "Iso2": "CK",
+  "Iso3": "COK"
+  },
+  {
+  "name": "Costa Rica",
+  "Iso2": "CR",
+  "Iso3": "CRI"
+  },
+  {
+  "name": "Croatia",
+  "Iso2": "HR",
+  "Iso3": "HRV"
+  },
+  {
+  "name": "Cuba",
+  "Iso2": "CU",
+  "Iso3": "CUB"
+  },
+  {
+  "name": "Cyprus",
+  "Iso2": "CY",
+  "Iso3": "CYP"
+  },
+  {
+  "name": "Czech Republic",
+  "Iso2": "CZ",
+  "Iso3": "CZE"
+  },
+  {
+  "name": "Denmark",
+  "Iso2": "DK",
+  "Iso3": "DNK"
+  },
+  {
+  "name": "Djibouti",
+  "Iso2": "DJ",
+  "Iso3": "DJI"
+  },
+  {
+  "name": "Dominica",
+  "Iso2": "DM",
+  "Iso3": "DMA"
+  },
+  {
+  "name": "Dominican Republic",
+  "Iso2": "DO",
+  "Iso3": "DOM"
+  },
+  {
+  "name": "Ecuador",
+  "Iso2": "EC",
+  "Iso3": "ECU"
+  },
+  {
+  "name": "Egypt",
+  "Iso2": "EG",
+  "Iso3": "EGY"
+  },
+  {
+  "name": "El Salvador",
+  "Iso2": "SV",
+  "Iso3": "SLV"
+  },
+  {
+  "name": "Equatorial Guinea",
+  "Iso2": "GQ",
+  "Iso3": "GNQ"
+  },
+  {
+  "name": "Eritrea",
+  "Iso2": "ER",
+  "Iso3": "ERI"
+  },
+  {
+  "name": "Estonia",
+  "Iso2": "EE",
+  "Iso3": "EST"
+  },
+  {
+  "name": "Ethiopia",
+  "Iso2": "ET",
+  "Iso3": "ETH"
+  },
+  {
+  "name": "Falkland Islands",
+  "Iso2": "FK",
+  "Iso3": "FLK"
+  },
+  {
+  "name": "Faroe Islands",
+  "Iso2": "FO",
+  "Iso3": "FRO"
+  },
+  {
+  "name": "Fiji",
+  "Iso2": "FJ",
+  "Iso3": "FJI"
+  },
+  {
+  "name": "Finland",
+  "Iso2": "FI",
+  "Iso3": "FIN"
+  },
+  {
+  "name": "France",
+  "Iso2": "FR",
+  "Iso3": "FRA"
+  },
+  {
+  "name": "French Polynesia",
+  "Iso2": "PF",
+  "Iso3": "PYF"
+  },
+  {
+  "name": "Gabon",
+  "Iso2": "GA",
+  "Iso3": "GAB"
+  },
+  {
+  "name": "Gambia",
+  "Iso2": "GM",
+  "Iso3": "GMB"
+  },
+  {
+  "name": "Georgia",
+  "Iso2": "GE",
+  "Iso3": "GEO"
+  },
+  {
+  "name": "Germany",
+  "Iso2": "DE",
+  "Iso3": "DEU"
+  },
+  {
+  "name": "Ghana",
+  "Iso2": "GH",
+  "Iso3": "GHA"
+  },
+  {
+  "name": "Gibraltar",
+  "Iso2": "GI",
+  "Iso3": "GIB"
+  },
+  {
+  "name": "Greece",
+  "Iso2": "GR",
+  "Iso3": "GRC"
+  },
+  {
+  "name": "Greenland",
+  "Iso2": "GL",
+  "Iso3": "GRL"
+  },
+  {
+  "name": "Grenada",
+  "Iso2": "GD",
+  "Iso3": "GRD"
+  },
+  {
+  "name": "Guadeloupe",
+  "Iso2": "GP",
+  "Iso3": "GLP"
+  },
+  {
+  "name": "Guam",
+  "Iso2": "GU",
+  "Iso3": "GUM"
+  },
+  {
+  "name": "Guatemala",
+  "Iso2": "GT",
+  "Iso3": "GTM"
+  },
+  {
+  "name": "Guernsey",
+  "Iso2": "GG",
+  "Iso3": "GGY"
+  },
+  {
+  "name": "Guinea",
+  "Iso2": "GN",
+  "Iso3": "GIN"
+  },
+  {
+  "name": "Guinea-Bissau",
+  "Iso2": "GW",
+  "Iso3": "GNB"
+  },
+  {
+  "name": "Guyana",
+  "Iso2": "GY",
+  "Iso3": "GUY"
+  },
+  {
+  "name": "Haiti",
+  "Iso2": "HT",
+  "Iso3": "HTI"
+  },
+  {
+  "name": "Heard Island and McDonald Islands",
+  "Iso2": "HM",
+  "Iso3": "HMD"
+  },
+  {
+  "name": "Vatican City State (Holy See)",
+  "Iso2": "VA",
+  "Iso3": "VAT"
+  },
+  {
+  "name": "Honduras",
+  "Iso2": "HN",
+  "Iso3": "HND"
+  },
+  {
+  "name": "Hong Kong",
+  "Iso2": "HK",
+  "Iso3": "HKG"
+  },
+  {
+  "name": "Hungary",
+  "Iso2": "HU",
+  "Iso3": "HUN"
+  },
+  {
+  "name": "Iceland",
+  "Iso2": "IS",
+  "Iso3": "ISL"
+  },
+  {
+  "name": "India",
+  "Iso2": "IN",
+  "Iso3": "IND"
+  },
+  {
+  "name": "Indonesia",
+  "Iso2": "ID",
+  "Iso3": "IDN"
+  },
+  {
+  "name": "Iran",
+  "Iso2": "IR",
+  "Iso3": "IRN"
+  },
+  {
+  "name": "Iraq",
+  "Iso2": "IQ",
+  "Iso3": "IRQ"
+  },
+  {
+  "name": "Ireland",
+  "Iso2": "IE",
+  "Iso3": "IRL"
+  },
+  {
+  "name": "Isle of Man",
+  "Iso2": "IM",
+  "Iso3": "IMN"
+  },
+  {
+  "name": "Israel",
+  "Iso2": "IL",
+  "Iso3": "ISR"
+  },
+  {
+  "name": "Italy",
+  "Iso2": "IT",
+  "Iso3": "ITA"
+  },
+  {
+  "name": "Jamaica",
+  "Iso2": "JM",
+  "Iso3": "JAM"
+  },
+  {
+  "name": "Japan",
+  "Iso2": "JP",
+  "Iso3": "JPN"
+  },
+  {
+  "name": "Jersey",
+  "Iso2": "JE",
+  "Iso3": "JEY"
+  },
+  {
+  "name": "Jordan",
+  "Iso2": "JO",
+  "Iso3": "JOR"
+  },
+  {
+  "name": "Kazakhstan",
+  "Iso2": "KZ",
+  "Iso3": "KAZ"
+  },
+  {
+  "name": "Kenya",
+  "Iso2": "KE",
+  "Iso3": "KEN"
+  },
+  {
+  "name": "Kiribati",
+  "Iso2": "KI",
+  "Iso3": "KIR"
+  },
+  {
+  "name": "Kuwait",
+  "Iso2": "KW",
+  "Iso3": "KWT"
+  },
+  {
+  "name": "Kyrgyzstan",
+  "Iso2": "KG",
+  "Iso3": "KGZ"
+  },
+  {
+  "name": "Laos",
+  "Iso2": "LA",
+  "Iso3": "LAO"
+  },
+  {
+  "name": "Latvia",
+  "Iso2": "LV",
+  "Iso3": "LVA"
+  },
+  {
+  "name": "Lebanon",
+  "Iso2": "LB",
+  "Iso3": "LBN"
+  },
+  {
+  "name": "Lesotho",
+  "Iso2": "LS",
+  "Iso3": "LSO"
+  },
+  {
+  "name": "Liberia",
+  "Iso2": "LR",
+  "Iso3": "LBR"
+  },
+  {
+  "name": "Liechtenstein",
+  "Iso2": "LI",
+  "Iso3": "LIE"
+  },
+  {
+  "name": "Lithuania",
+  "Iso2": "LT",
+  "Iso3": "LTU"
+  },
+  {
+  "name": "Luxembourg",
+  "Iso2": "LU",
+  "Iso3": "LUX"
+  },
+  {
+  "name": "Macau",
+  "Iso2": "MO",
+  "Iso3": "MAC"
+  },
+  {
+  "name": "Madagascar",
+  "Iso2": "MG",
+  "Iso3": "MDG"
+  },
+  {
+  "name": "Malawi",
+  "Iso2": "MW",
+  "Iso3": "MWI"
+  },
+  {
+  "name": "Malaysia",
+  "Iso2": "MY",
+  "Iso3": "MYS"
+  },
+  {
+  "name": "Maldives",
+  "Iso2": "MV",
+  "Iso3": "MDV"
+  },
+  {
+  "name": "Mali",
+  "Iso2": "ML",
+  "Iso3": "MLI"
+  },
+  {
+  "name": "Malta",
+  "Iso2": "MT",
+  "Iso3": "MLT"
+  },
+  {
+  "name": "Marshall Islands",
+  "Iso2": "MH",
+  "Iso3": "MHL"
+  },
+  {
+  "name": "Martinique",
+  "Iso2": "MQ",
+  "Iso3": "MTQ"
+  },
+  {
+  "name": "Mauritania",
+  "Iso2": "MR",
+  "Iso3": "MRT"
+  },
+  {
+  "name": "Mauritius",
+  "Iso2": "MU",
+  "Iso3": "MUS"
+  },
+  {
+  "name": "Mayotte",
+  "Iso2": "YT",
+  "Iso3": "MYT"
+  },
+  {
+  "name": "Mexico",
+  "Iso2": "MX",
+  "Iso3": "MEX"
+  },
+  {
+  "name": "Monaco",
+  "Iso2": "MC",
+  "Iso3": "MCO"
+  },
+  {
+  "name": "Mongolia",
+  "Iso2": "MN",
+  "Iso3": "MNG"
+  },
+  {
+  "name": "Montenegro",
+  "Iso2": "ME",
+  "Iso3": "MNE"
+  },
+  {
+  "name": "Montserrat",
+  "Iso2": "MS",
+  "Iso3": "MSR"
+  },
+  {
+  "name": "Morocco",
+  "Iso2": "MA",
+  "Iso3": "MAR"
+  },
+  {
+  "name": "Mozambique",
+  "Iso2": "MZ",
+  "Iso3": "MOZ"
+  },
+  {
+  "name": "Myanmar",
+  "Iso2": "MM",
+  "Iso3": "MMR"
+  },
+  {
+  "name": "Namibia",
+  "Iso2": "NA",
+  "Iso3": "NAM"
+  },
+  {
+  "name": "Nauru",
+  "Iso2": "NR",
+  "Iso3": "NRU"
+  },
+  {
+  "name": "Nepal",
+  "Iso2": "NP",
+  "Iso3": "NPL"
+  },
+  {
+  "name": "Netherlands",
+  "Iso2": "NL",
+  "Iso3": "NLD"
+  },
+  {
+  "name": "New Caledonia",
+  "Iso2": "NC",
+  "Iso3": "NCL"
+  },
+  {
+  "name": "New Zealand",
+  "Iso2": "NZ",
+  "Iso3": "NZL"
+  },
+  {
+  "name": "Nicaragua",
+  "Iso2": "NI",
+  "Iso3": "NIC"
+  },
+  {
+  "name": "Niger",
+  "Iso2": "NE",
+  "Iso3": "NER"
+  },
+  {
+  "name": "Nigeria",
+  "Iso2": "NG",
+  "Iso3": "NGA"
+  },
+  {
+  "name": "Niue",
+  "Iso2": "NU",
+  "Iso3": "NIU"
+  },
+  {
+  "name": "Norfolk Island",
+  "Iso2": "NF",
+  "Iso3": "NFK"
+  },
+  {
+  "name": "Northern Mariana Islands",
+  "Iso2": "MP",
+  "Iso3": "MNP"
+  },
+  {
+  "name": "Norway",
+  "Iso2": "NO",
+  "Iso3": "NOR"
+  },
+  {
+  "name": "Oman",
+  "Iso2": "OM",
+  "Iso3": "OMN"
+  },
+  {
+  "name": "Pakistan",
+  "Iso2": "PK",
+  "Iso3": "PAK"
+  },
+  {
+  "name": "Palau",
+  "Iso2": "PW",
+  "Iso3": "PLW"
+  },
+  {
+  "name": "Panama",
+  "Iso2": "PA",
+  "Iso3": "PAN"
+  },
+  {
+  "name": "Papua New Guinea",
+  "Iso2": "PG",
+  "Iso3": "PNG"
+  },
+  {
+  "name": "Paraguay",
+  "Iso2": "PY",
+  "Iso3": "PRY"
+  },
+  {
+  "name": "Peru",
+  "Iso2": "PE",
+  "Iso3": "PER"
+  },
+  {
+  "name": "Philippines",
+  "Iso2": "PH",
+  "Iso3": "PHL"
+  },
+  {
+  "name": "Pitcairn",
+  "Iso2": "PN",
+  "Iso3": "PCN"
+  },
+  {
+  "name": "Poland",
+  "Iso2": "PL",
+  "Iso3": "POL"
+  },
+  {
+  "name": "Portugal",
+  "Iso2": "PT",
+  "Iso3": "PRT"
+  },
+  {
+  "name": "Puerto Rico",
+  "Iso2": "PR",
+  "Iso3": "PRI"
+  },
+  {
+  "name": "Qatar",
+  "Iso2": "QA",
+  "Iso3": "QAT"
+  },
+  {
+  "name": "Réunion",
+  "Iso2": "RE",
+  "Iso3": "REU"
+  },
+  {
+  "name": "Romania",
+  "Iso2": "RO",
+  "Iso3": "ROU"
+  },
+  {
+  "name": "Rwanda",
+  "Iso2": "RW",
+  "Iso3": "RWA"
+  },
+  {
+  "name": "Saint Kitts and Nevis",
+  "Iso2": "KN",
+  "Iso3": "KNA"
+  },
+  {
+  "name": "Saint Lucia",
+  "Iso2": "LC",
+  "Iso3": "LCA"
+  },
+  {
+  "name": "Saint Pierre and Miquelon",
+  "Iso2": "PM",
+  "Iso3": "SPM"
+  },
+  {
+  "name": "Saint Vincent and the Grenadines",
+  "Iso2": "VC",
+  "Iso3": "VCT"
+  },
+  {
+  "name": "Samoa",
+  "Iso2": "WS",
+  "Iso3": "WSM"
+  },
+  {
+  "name": "San Marino",
+  "Iso2": "SM",
+  "Iso3": "SMR"
+  },
+  {
+  "name": "Sao Tome and Principe",
+  "Iso2": "ST",
+  "Iso3": "STP"
+  },
+  {
+  "name": "Saudi Arabia",
+  "Iso2": "SA",
+  "Iso3": "SAU"
+  },
+  {
+  "name": "Senegal",
+  "Iso2": "SN",
+  "Iso3": "SEN"
+  },
+  {
+  "name": "Serbia",
+  "Iso2": "RS",
+  "Iso3": "SRB"
+  },
+  {
+  "name": "Seychelles",
+  "Iso2": "SC",
+  "Iso3": "SYC"
+  },
+  {
+  "name": "Sierra Leone",
+  "Iso2": "SL",
+  "Iso3": "SLE"
+  },
+  {
+  "name": "Singapore",
+  "Iso2": "SG",
+  "Iso3": "SGP"
+  },
+  {
+  "name": "Slovakia",
+  "Iso2": "SK",
+  "Iso3": "SVK"
+  },
+  {
+  "name": "Slovenia",
+  "Iso2": "SI",
+  "Iso3": "SVN"
+  },
+  {
+  "name": "Solomon Islands",
+  "Iso2": "SB",
+  "Iso3": "SLB"
+  },
+  {
+  "name": "Somalia",
+  "Iso2": "SO",
+  "Iso3": "SOM"
+  },
+  {
+  "name": "South Africa",
+  "Iso2": "ZA",
+  "Iso3": "ZAF"
+  },
+  {
+  "name": "South Georgia and the South Sandwich Islands",
+  "Iso2": "GS",
+  "Iso3": "SGS"
+  },
+  {
+  "name": "Spain",
+  "Iso2": "ES",
+  "Iso3": "ESP"
+  },
+  {
+  "name": "Sri Lanka",
+  "Iso2": "LK",
+  "Iso3": "LKA"
+  },
+  {
+  "name": "Sudan",
+  "Iso2": "SD",
+  "Iso3": "SDN"
+  },
+  {
+  "name": "Suriname",
+  "Iso2": "SR",
+  "Iso3": "SUR"
+  },
+  {
+  "name": "Swaziland",
+  "Iso2": "SZ",
+  "Iso3": "SWZ"
+  },
+  {
+  "name": "Sweden",
+  "Iso2": "SE",
+  "Iso3": "SWE"
+  },
+  {
+  "name": "Switzerland",
+  "Iso2": "CH",
+  "Iso3": "CHE"
+  },
+  {
+  "name": "Syria",
+  "Iso2": "SY",
+  "Iso3": "SYR"
+  },
+  {
+  "name": "Taiwan",
+  "Iso2": "TW",
+  "Iso3": "TWN"
+  },
+  {
+  "name": "Tajikistan",
+  "Iso2": "TJ",
+  "Iso3": "TJK"
+  },
+  {
+  "name": "Thailand",
+  "Iso2": "TH",
+  "Iso3": "THA"
+  },
+  {
+  "name": "Timor-Leste",
+  "Iso2": "TL",
+  "Iso3": "TLS"
+  },
+  {
+  "name": "Togo",
+  "Iso2": "TG",
+  "Iso3": "TGO"
+  },
+  {
+  "name": "Tokelau",
+  "Iso2": "TK",
+  "Iso3": "TKL"
+  },
+  {
+  "name": "Tonga",
+  "Iso2": "TO",
+  "Iso3": "TON"
+  },
+  {
+  "name": "Trinidad and Tobago",
+  "Iso2": "TT",
+  "Iso3": "TTO"
+  },
+  {
+  "name": "Tunisia",
+  "Iso2": "TN",
+  "Iso3": "TUN"
+  },
+  {
+  "name": "Turkey",
+  "Iso2": "TR",
+  "Iso3": "TUR"
+  },
+  {
+  "name": "Turkmenistan",
+  "Iso2": "TM",
+  "Iso3": "TKM"
+  },
+  {
+  "name": "Turks and Caicos Islands",
+  "Iso2": "TC",
+  "Iso3": "TCA"
+  },
+  {
+  "name": "Tuvalu",
+  "Iso2": "TV",
+  "Iso3": "TUV"
+  },
+  {
+  "name": "Uganda",
+  "Iso2": "UG",
+  "Iso3": "UGA"
+  },
+  {
+  "name": "Ukraine",
+  "Iso2": "UA",
+  "Iso3": "UKR"
+  },
+  {
+  "name": "United Arab Emirates",
+  "Iso2": "AE",
+  "Iso3": "ARE"
+  },
+  {
+  "name": "United Kingdom",
+  "Iso2": "GB",
+  "Iso3": "GBR"
+  },
+  {
+  "name": "United States",
+  "Iso2": "US",
+  "Iso3": "USA"
+  },
+  {
+  "name": "United States Minor Outlying Islands",
+  "Iso2": "UM",
+  "Iso3": "UMI"
+  },
+  {
+  "name": "Uruguay",
+  "Iso2": "UY",
+  "Iso3": "URY"
+  },
+  {
+  "name": "Uzbekistan",
+  "Iso2": "UZ",
+  "Iso3": "UZB"
+  },
+  {
+  "name": "Vanuatu",
+  "Iso2": "VU",
+  "Iso3": "VUT"
+  },
+  {
+  "name": "Vietnam",
+  "Iso2": "VN",
+  "Iso3": "VNM"
+  },
+  {
+  "name": "Wallis and Futuna",
+  "Iso2": "WF",
+  "Iso3": "WLF"
+  },
+  {
+  "name": "Yemen",
+  "Iso2": "YE",
+  "Iso3": "YEM"
+  },
+  {
+  "name": "Zambia",
+  "Iso2": "ZM",
+  "Iso3": "ZMB"
+  },
+  {
+  "name": "Zimbabwe",
+  "Iso2": "ZW",
+  "Iso3": "ZWE"
+  }
+];
+    artx.userCountry = "VN";
+    artx.userRegion = "as";
+</script>
+<script async defer src="https://analytics.umami.is/script.js" data-website-id="68416073-3e4a-4f2b-ae5a-787ea205902a"></script>
+<script src="/js/piexif.js"></script>
+<script src="https://cdn.architextures.org/js/jquery/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+<script src="/js/architextures.min.js?v=1237"></script>
+<script src="https://unpkg.com/flickity@2.2.2/dist/flickity.pkgd.min.js"></script></head>
+<body>
+<div id="page-body">
+<div class="hb-page column-container">
+<div class="top">
+<div class="cc">
+<a href="/">
+<img id="logo" alt="ARTX, the Architextures logo" src="/img/artx-logo.svg">
+</a>
+</div>
+<div class="cc s-gap">
+<a href="/login?redirect=%2Ftextures%2Fcategory%2Fwood" class="fbutt">Login</a>
+<img id="show-main-menu" data-show="#main-menu" data-group="menus" class="menu-icon icon" src="/img/kebab.png" draggable="false">
+<div id="main-menu" class="nav-menu" style="display:none;right:5px;top:5px;">
+<div class="eh">
+<img class="menu-icon" data-close="#main-menu" src="https://cdn.architextures.org/icons/x.svg" draggable="false">
+</div>
+<div class="nav-menu-items">
+<a class="nav-menu-item" href="/create">
+<div>Create</div>
+</a>
+<a class="nav-menu-item" href="/textures">
+<div>Seamless Textures</div>
+</a>
+<a class="nav-menu-item" href="/hatches">
+<div>CAD &amp; Revit Hatches</div>
+</a>
+<a class="nav-menu-item" href="/manufacturers">
+<div>For Manufacturers</div>
+</a>
+<a class="nav-menu-item" href="/about">
+<div style="border-bottom:nav-menu-item;">About &amp; Contact</div>
+</a>
+<a class="nav-menu-item" href="/pro">
+<div>Get a Pro Account</div>
+</a>
+<a class="nav-menu-item menu-link" href="/login?redirect=%2Ftextures%2Fcategory%2Fwood">
+<div><img style="height: 20px; margin-right: 10px; border-radius: 15px;" class="user-icon nav-menu-item-icon" src="/img/user.png?v=2" draggable="false">Login</div>
+</a>
+</div>
+</div>
+<div id="user-menu" class="nav-menu" style="display:none;right:35px;top:5px;">
+<div class="eh">
+<img class="menu-icon" data-close="#user-menu" src="https://cdn.architextures.org/icons/x.svg" draggable="false">
+</div>
+<div class="nav-menu-items">
+<a class="nav-menu-item" href="/admin/saved">
+<div>Saved</div>
+</a>
+<a class="nav-menu-item" href="/admin/uploads">
+<div>Uploads</div>
+</a>
+<a class="nav-menu-item" href="/admin/downloads">
+<div>Downloads</div>
+</a>
+<a class="nav-menu-item" href="/admin/account">
+<div>Manage Account</div>
+</a>
+<a class="nav-menu-item" href="/logout?redirect=%2Ftextures%2Fcategory%2Fwood">
+<div>Logout</div>
+</a> </div>
+</div>
+</div>
+</div>
+<script>
+
+    /**
+     * Event listener to close the dropdown menus when clicked outside of them
+     */
+    document.addEventListener("click", function(event) {
+        const mainMenu = document.getElementById('main-menu')
+        // close main menu
+        if(
+            !mainMenu.contains(event.target) &&
+            window.getComputedStyle(mainMenu).getPropertyValue('display') !== 'none' &&
+            !document.getElementById('show-main-menu').contains(event.target)
+        ) {
+            mainMenu.style.display = "none";
+        }
+        // close user menu
+        const userMenu = document.getElementById("user-menu")
+        if(
+            !userMenu.contains(event.target) &&
+            window.getComputedStyle(userMenu).getPropertyValue('display') !== 'none' &&
+            !document.getElementById('show-user-menu').contains(event.target)
+        ) {
+            userMenu.style.display = "none";
+        }
+    })
+</script> <div class="hb-header row column vstin">
+<h1 class="hb-title">Seamless Wood Textures</h1>
+<div class="hb-subtitle"><div class="fbutt-container">
+<div id="new-texture-div">
+<div class="fbutt" data-value="newTexture">New Texture</div>
+</div>
+<div>
+
+<div id="filter-cats" class="fbutt select">Category</div>
+</div>
+<div class>
+
+<div id="filter-brand" class="fbutt select">Maker</div>
+</div>
+<div class>
+
+<input id="asset-search" type="search" placeholder="Search" class="fbutt search">
+</div>
+<div class id="asset-inModel-search">
+
+<input id="inModel-search-input" type="search" placeholder="Search" class="fbutt search">
+</div>
+</div></div> </div>
+<div id="asset-inModel-container" class="column row asset-container" style="display: none;">
+<div class="asset-grid row " id="asset-inModel-grid"></div>
+</div>
+<div id="asset-container" class="column row asset-container">
+<div class="asset-grid row " id="asset-grid">
+<a href="/textures/1097" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #866247;background-image:url(https://cdn.architextures.org/textures/21/07/western-red-cedar-stack-60e5d53d1803f-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Western Red Cedar Stack <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/729" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #986e41;background-image:url(https://cdn.architextures.org/textures/20/11/oak-5fc4cb29cb8cc-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Oak <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/730" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #dec6a7;background-image:url(https://cdn.architextures.org/textures/20/11/ash-5fc4cb2f0d6d2-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Ash <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/334" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #9c7346;background-image:url(https://cdn.architextures.org/textures/20/05/oak-stretcher-5ec11d400a353-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Oak Stretcher <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/132" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #d9c7a9;background-image:url(https://cdn.architextures.org/textures/20/03/douglas-fir-staggered-5e80df0caea28-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Douglas Fir Staggered <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/927" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #946a3e;background-image:url(https://cdn.architextures.org/textures/21/04/oak-stack-60899b52d9e09-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Oak Stack <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/1057" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #ae805e;background-image:url(https://cdn.architextures.org/textures/21/07/wood-veneer-60e5cae3622fe-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Wood Veneer <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/250" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #cbc1b2;background-image:url(https://cdn.architextures.org/textures/20/04/douglas-fir-staggered-5ea1eb6b81dfc-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Douglas Fir Staggered <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/166" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #9c7347;background-image:url(https://cdn.architextures.org/textures/20/03/oak-herringbone-5e80fb40b00c9-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Oak Herringbone <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/727" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #7d6245;background-image:url(https://cdn.architextures.org/textures/20/11/walnut-5fc4cb1db4895-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Walnut <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/720" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #dbc9ab;background-image:url(https://cdn.architextures.org/textures/20/11/douglas-fir-5fc4caf11e5ae-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Douglas Fir <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/1214" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #c5a281;background-image:url(https://cdn.architextures.org/textures/21/11/microperforated-acoustic-veneer-61a670d6396de-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Microperforated Acoustic Veneer <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/783" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #534332;background-image:url(https://cdn.architextures.org/textures/20/11/walnut-5fc4d06533abf-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Walnut <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/785" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #70491f;background-image:url(https://cdn.architextures.org/textures/20/11/oak-5fc4d0c4081c1-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Oak <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/137" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #817a77;background-image:url(https://cdn.architextures.org/textures/20/03/weathered-timber-staggered-5e80dfae60bb2-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Weathered Timber Staggered <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/814" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #f7e7ce;background-image:url(https://cdn.architextures.org/textures/20/12/birch-plywood-5fd0bffa87982-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Birch Plywood <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/724" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #222222;background-image:url(https://cdn.architextures.org/textures/20/11/charred-timber-5fc4cb0884792-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Charred Timber <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/726" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #e6dfd5;background-image:url(https://cdn.architextures.org/textures/20/11/white-oiled-timber-5fc4cb176ba6f-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+White Oiled Timber <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/154" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #e5ddd3;background-image:url(https://cdn.architextures.org/textures/20/03/white-oiled-timber-staggered-5e80f9d77ee33-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+White Oiled Timber Staggered <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/1117" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #dcc1a2;background-image:url(https://cdn.architextures.org/textures/21/07/wood-veneer-60e743432b8ea-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Wood Veneer <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/784" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #6b5545;background-image:url(https://cdn.architextures.org/textures/20/11/western-red-cedar-5fc4d08cba232-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Western Red Cedar <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/779" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #d5cdc1;background-image:url(https://cdn.architextures.org/textures/20/11/douglas-fir-5fc4cf570832f-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Douglas Fir <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/1700" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #d1a778;background-image:url(https://cdn.architextures.org/textures/23/2/oak-veneermdf-none-rz7xim-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Oak Veneered MDF <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+<a href="/textures/171" target="_blank">
+<div class="asset pr" style="background-size: 300px; background-color: #dab68e;background-image:url(https://cdn.architextures.org/textures/20/03/knotted-timber-staggered-5e80fbeb631e8-1200.jpg?s=400&q=60)">
+<div class="asset-label">
+Knotted Timber Staggered <div class="input-label">Wood</div>
+</div>
+</div>
+</a>
+</div>
+<a href="/textures/category/wood/page/2">
+<button id="asset-more-button" class="button more">
+<div>More</div>
+</button>
+</a>
+</div>
+<script src="/handlers/collections/CollectionUser.js?v=105"></script>
+<script>
+    artx.assetType = "texture";
+    // Replicate the databox on the frontend
+    //console.log(//)
+
+    /**
+     * This is the databox that will be used to show the textures
+     * @type createDatabox
+     */
+    let texturesDatabox = createDatabox({
+        query: {"table":"textures","limit":24,"where":[["type","IS NULL"],["category","like","wood"]],"sort":["views","desc"],"page":1,"columns":["id","name","category","imgurl","width_mm","materials","brand","color","sphere","params"],"joins":[{"table":"brands","columns":["name","website_link","logo"],"on":["brand","=","id"]},{"table":"textures_position_as","columns":["texture","position"],"on":["id","=","texture"],"sort":["position","asc"]}]},
+        itemContainer: "#asset-grid",
+        container: "#asset-container",
+        searchInput: "#asset-search",
+        moreButton: "#asset-more-button",
+        itemHtml: function(item) {
+            return artx.assetType === "pbr" ? artx.createPbrThumb(item) : artx.createAssetCard(item);
+        },
+        existingResponse: {"more":true,"results":[{"id":1097,"name":"Western Red Cedar Stack","category":"Wood","imgurl":"\/textures\/21\/07\/western-red-cedar-stack-60e5d53d1803f-1200.jpg","width_mm":1259,"materials":73,"brand":null,"color":"#866247","sphere":"\/textures\/23\/5\/western-red-cedar-stack-1260-x-1505-mm-9c40xr-sphere.png","params":{"hue":"0","rows":12,"view":"texture","depth":"6","regen":false,"inches":false,"setRes":true,"tileID":"73","columns":1,"jointID":"3","product":false,"pxPerMm":0,"randSrc":58813,"trigger":"view","contrast":"0.81","cropType":"new","drawType":"texture","hatchApp":"autocad","randCrop":25899,"randEdge":79229,"randTone":11546,"tileName":"Western Red Cedar","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":"1.01","edgeValue":0,"hatchType":"model","jointData":"","jointTint":"#000000","jointType":"texture","patternId":1,"tileWidth":"1500","variation":0,"brightness":"0.79","cornerType":0,"pixelWidth":1473,"saturation":"0.85","shadowBlur":"5","tileHeight":"100","tileInvert":false,"tileStyles":{"a":{"hue":"0","edge":{"scale":"1.01","width":25,"exclude":[],"profile":"fine"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"0.81","depthTop":255,"bumpEdges":true,"bumpImage":"none","frequency":"0.5","metalness":0,"placement":"random","roughness":0.85,"brightness":"0.79","bumpInvert":false,"materialId":"73","saturation":"0.85","sourceType":"single","bumpOpacity":1,"depthBottom":20,"bumpContrast":1.5,"materialWidth":3230,"bumpBrightness":"0.71","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"wood","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":1,"displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"0.51","displacementContrast":1.5,"displacementBrightness":1.5}},"cornerValue":0,"edgeProfile":"fine","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"stack","patternAngle":30,"profileWidth":"50","recessJoints":true,"tileAutoBump":true,"tileMinWidth":"50","tileRotation":false,"jointAutoBump":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":3230,"diffuseOpacity":0.5,"jointRealWidth":2000,"randFinishCrop":27252,"tileSourceType":"single","tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"tileBumpContrast":"1","patternStretchers":3,"jointWidthVertical":"5","patternRotateAngle":90,"showSurfaceProfile":false,"tileBumpBrightness":"1","jointWidthHorizontal":"5","surfaceShadowOpacity":"1.01","surfaceHighlightOpacity":"1.01","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":1097,"textures_position_as_position":1},{"id":729,"name":"Oak","category":"Wood","imgurl":"\/textures\/20\/11\/oak-5fc4cb29cb8cc-1200.jpg","width_mm":3275,"materials":74,"brand":null,"color":"#986e41","sphere":"\/textures\/23\/4\/oak-none-3275-x-2565-mm-sphere.png","params":{"hue":"0","rows":6,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"74","columns":4,"jointID":"3","pxPerMm":0,"randSrc":16409,"trigger":"roughness","contrast":"1","cropType":"new","drawType":"texture","hatchApp":"autocad","randCrop":48125,"randEdge":67702,"randTone":58022,"tileData":"","tileName":"Oak","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":"1.01","edgeValue":0,"hatchType":"model","jointData":"","jointTint":"#FFFFFF","jointType":"texture","patternId":17,"tileWidth":"400","appVersion":"1.1.0","brightness":"1","cornerType":0,"pixelWidth":4851,"saturation":"1","shadowBlur":"5","tileHeight":"100","tileInvert":false,"tileStyles":{"a":{"hue":"0","edge":{"scale":"1.01","width":25,"exclude":[],"profile":"handmade"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","frequency":"0.5","metalness":0,"placement":"random","roughness":"0.26","brightness":"1","bumpInvert":false,"materialId":"74","saturation":"1","sourceType":"single","bumpOpacity":1,"depthBottom":20,"bumpContrast":"3.97","materialWidth":3275,"bumpBrightness":"2.92","metalnessImage":"none","roughnessImage":"none","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"brick","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":1,"displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":1,"displacementContrast":"4","displacementBrightness":"1.73"}},"cornerValue":0,"edgeProfile":"handmade","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"none","patternAngle":30,"profileWidth":"50","recessJoints":true,"tileAutoBump":true,"tileMinWidth":"50","tileRotation":false,"jointAutoBump":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":3275,"diffuseOpacity":0.5,"jointRealWidth":2000,"patternDimType":"multi","randFinishCrop":96501,"tileSourceType":"single","tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"tileBumpContrast":"1","patternStretchers":3,"jointWidthVertical":"5","patternRotateAngle":0,"showSurfaceProfile":false,"tileBumpBrightness":"1","jointWidthHorizontal":"5","surfaceShadowOpacity":"1.01","surfaceHighlightOpacity":"1.01","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":729,"textures_position_as_position":2},{"id":730,"name":"Ash","category":"Wood","imgurl":"\/textures\/20\/11\/ash-5fc4cb2f0d6d2-1200.jpg","width_mm":3200,"materials":75,"brand":null,"color":"#dec6a7","sphere":"\/textures\/23\/5\/ash-none-3200-x-2263-mm-8qoog8-sphere.png","params":{"hue":"0","rows":6,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"75","columns":4,"jointID":"3","pxPerMm":0,"randSrc":32835,"trigger":"view","contrast":"1","cropType":"new","drawType":"texture","hatchApp":"autocad","randCrop":72257,"randEdge":32408,"randTone":91470,"tileData":"","tileName":"Ash","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":"1.01","edgeValue":0,"hatchType":"model","jointData":"","jointTint":"#FFFFFF","jointType":"texture","patternId":17,"tileWidth":"400","appVersion":"1.1.0","brightness":"1","cornerType":0,"pixelWidth":4252,"saturation":"1","shadowBlur":"5","tileHeight":"100","tileInvert":false,"tileStyles":{"a":{"hue":"0","edge":{"scale":"1.01","width":25,"exclude":[],"profile":"handmade"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","metalness":0,"roughness":"0.6","brightness":"1","bumpInvert":false,"materialId":"75","saturation":"1","sourceType":"single","bumpOpacity":1,"depthBottom":20,"bumpContrast":1.5,"materialWidth":3200,"bumpBrightness":"1.42","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"brick","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":"0","displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"0.76","displacementContrast":1.5,"displacementBrightness":1.5}},"cornerValue":0,"edgeProfile":"handmade","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"none","patternAngle":30,"profileWidth":"50","recessJoints":true,"tileAutoBump":true,"tileMinWidth":"50","tileRotation":false,"jointAutoBump":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":3200,"diffuseOpacity":0.5,"jointRealWidth":2000,"patternDimType":"multi","randFinishCrop":26881,"tileSourceType":"single","tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"tileBumpContrast":"1","patternStretchers":3,"jointWidthVertical":"5","patternRotateAngle":0,"showSurfaceProfile":false,"tileBumpBrightness":"1","jointWidthHorizontal":"5","surfaceShadowOpacity":"1.01","surfaceHighlightOpacity":"1.01","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":730,"textures_position_as_position":4},{"id":334,"name":"Oak Stretcher","category":"Wood","imgurl":"\/textures\/20\/05\/oak-stretcher-5ec11d400a353-1200.jpg","width_mm":1816,"materials":74,"brand":null,"color":"#9c7346","sphere":"\/textures\/23\/5\/oak-stretcher-1818-x-3003-mm-owmyo6-sphere.png","params":{"hue":"0","rows":18,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"74","columns":3,"jointID":"3","pxPerMm":0,"randSrc":94407,"trigger":"roughnessBrightness","contrast":"1","cropType":"new","drawType":"texture","hatchApp":"autocad","randCrop":24276,"randEdge":35214,"randTone":52963,"tileData":"5e5141e32b00f","tileName":"Oak","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":"1.01","edgeValue":0,"hatchType":"model","jointData":"5e14eb0bd12ac","jointTint":"#703c08","jointType":"texture","patternId":2,"tileWidth":"1000","appVersion":"1.0.0","brightness":"1","cornerType":0,"pixelWidth":664,"saturation":"1","shadowBlur":"5","tileHeight":"100","tileStyles":{"a":{"hue":"0","edge":{"scale":"1.01","width":25,"exclude":[],"profile":"fine"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","frequency":"0.5","metalness":0,"placement":"random","roughness":0.85,"brightness":"1","bumpInvert":false,"materialId":"74","saturation":"1","bumpOpacity":1,"depthBottom":20,"bumpContrast":"3.38","materialWidth":3275,"bumpBrightness":"3.43","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"brick","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":1,"displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"0.55","displacementContrast":"0.99","displacementBrightness":"2.03"}},"cornerValue":0,"edgeProfile":"fine","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"stretcher","patternAngle":30,"recessJoints":true,"tileMinWidth":"50","tileRotation":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":3275,"diffuseOpacity":0.5,"jointRealWidth":2000,"patternDimType":"multi","randFinishCrop":39578,"tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"patternStretchers":3,"jointWidthVertical":"1","patternRotateAngle":270,"showSurfaceProfile":false,"jointWidthHorizontal":"1","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":334,"textures_position_as_position":5},{"id":132,"name":"Douglas Fir Staggered","category":"Wood","imgurl":"\/textures\/20\/03\/douglas-fir-staggered-5e80df0caea28-1200.jpg","width_mm":2255,"materials":59,"brand":null,"color":"#d9c7a9","sphere":"\/textures\/23\/5\/douglas-fir-staggered-2255-x-3000-mm-sitjli-sphere.png","params":{"hue":0,"rows":11,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"59","columns":2,"pxPerMm":0,"randSrc":49740,"trigger":"view","cropType":"new","drawType":"texture","hatchApp":"autocad","randCrop":70149,"randEdge":15442,"randTone":64478,"tileData":"5e4eee48724f8","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":"1.01","edgeValue":0,"hatchType":"model","jointTint":"#cbb9a0","patternId":7,"tileWidth":"1500","variation":0,"cornerType":0,"pixelWidth":3395,"shadowBlur":"5","tileHeight":"200","tileStyles":{"a":{"hue":0,"edge":{"scale":"1.01","width":25,"exclude":[],"profile":"fine"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","frequency":"0.5","metalness":0,"placement":"random","roughness":0.85,"brightness":"1","bumpInvert":false,"materialId":"59","saturation":"1","bumpOpacity":1,"depthBottom":20,"bumpContrast":1.5,"materialWidth":3100,"bumpBrightness":1.5,"metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"brick","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":1,"displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"1.27","displacementContrast":1.5,"displacementBrightness":1.5}},"cornerValue":0,"edgeProfile":"fine","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"staggered","patternAngle":30,"recessJoints":true,"tileMinWidth":"","tileRotation":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"","tileRealWidth":3100,"diffuseOpacity":0.5,"jointRealWidth":999999,"patternDimType":"multi","randFinishCrop":86656,"tonalVariation":"0.19","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"patternStretchers":3,"jointWidthVertical":"5","patternRotateAngle":90,"showSurfaceProfile":false,"jointWidthHorizontal":"0","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":132,"textures_position_as_position":8},{"id":927,"name":"Oak Stack","category":"Wood","imgurl":"\/textures\/21\/04\/oak-stack-60899b52d9e09-1200.jpg","width_mm":1110,"materials":74,"brand":null,"color":"#946a3e","sphere":"\/textures\/23\/5\/oak-stack-1111-x-2501-mm-xpfi9d-sphere.png","params":{"hue":"0","rows":11,"view":"texture","depth":"3","regen":false,"inches":false,"setRes":true,"tileID":"74","columns":1,"jointID":"3","product":false,"pxPerMm":0,"randSrc":13126,"trigger":"depth","contrast":"1","cropType":"new","drawType":"texture","hatchApp":"autocad","randCrop":7245,"randEdge":86011,"randTone":32805,"tileData":"5e5141e32b00f","tileName":"Oak","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":"1.01","edgeValue":0,"hatchType":"model","jointData":"","jointTint":"#703c08","jointType":"texture","patternId":1,"tileWidth":"2500","appVersion":"1.0.0","brightness":"1","cornerType":0,"pixelWidth":22,"saturation":"1","shadowBlur":"5","tileHeight":"100","tileInvert":false,"tileStyles":{"a":{"hue":"0","edge":{"scale":"1.01","width":25,"exclude":[],"profile":"fine"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","frequency":"0.5","metalness":0,"placement":"random","roughness":0.85,"brightness":"1","bumpInvert":false,"materialId":"74","saturation":"1","sourceType":"single","bumpOpacity":1,"depthBottom":20,"bumpContrast":"3.69","materialWidth":3275,"bumpBrightness":"3.47","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"wood","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":1,"displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"0.58","displacementContrast":"2.89","displacementBrightness":"1.42"}},"cornerValue":0,"edgeProfile":"fine","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"stack","patternAngle":30,"profileWidth":"50","recessJoints":true,"tileAutoBump":true,"tileMinWidth":"50","tileRotation":false,"jointAutoBump":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":3275,"diffuseOpacity":0.5,"jointRealWidth":2000,"randFinishCrop":4800,"tileSourceType":"single","tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"tileBumpContrast":"1","patternStretchers":3,"jointWidthVertical":"1","patternRotateAngle":270,"showSurfaceProfile":false,"tileBumpBrightness":"1","jointWidthHorizontal":"1","surfaceShadowOpacity":"1.01","surfaceHighlightOpacity":"1.01","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":927,"textures_position_as_position":11},{"id":1057,"name":"Wood Veneer","category":"Wood","imgurl":"\/textures\/21\/07\/wood-veneer-60e5cae3622fe-1200.jpg","width_mm":598,"materials":285,"brand":null,"color":"#ae805e","sphere":"\/textures\/23\/5\/wood-veneer-none-600-x-1528-mm-gjlzil-sphere.png","params":{"hue":"0","rows":6,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"285","columns":4,"jointID":"3","product":false,"pxPerMm":0,"randSrc":33705,"trigger":"roughness","contrast":"1","cropType":"new","drawType":"texture","hatchApp":"autocad","randCrop":13647,"randEdge":32875,"randTone":65210,"tileName":"Wood Veneer","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":"1.01","edgeValue":0,"hatchType":"model","jointData":"","jointTint":"#FFFFFF","jointType":"texture","patternId":17,"tileWidth":"400","variation":0,"brightness":"1","cornerType":0,"pixelWidth":180,"saturation":"1","shadowBlur":"5","tileHeight":"100","tileInvert":false,"tileStyles":{"a":{"hue":"0","edge":{"scale":"1.01","width":25,"exclude":[],"profile":"handmade"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","frequency":"0.5","metalness":0,"placement":"random","roughness":"0.57","brightness":"1","bumpInvert":false,"materialId":"285","saturation":"1","sourceType":"single","bumpOpacity":1,"depthBottom":20,"bumpContrast":"3.61","materialWidth":600,"bumpBrightness":"3.61","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"wood","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":"0","displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"0.19","displacementContrast":1.5,"displacementBrightness":1.5}},"cornerValue":0,"edgeProfile":"handmade","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"none","patternAngle":30,"profileWidth":"50","recessJoints":true,"tileAutoBump":true,"tileMinWidth":"50","tileRotation":false,"jointAutoBump":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":600,"diffuseOpacity":0.5,"jointRealWidth":2000,"patternDimType":"multi","randFinishCrop":58767,"tileSourceType":"single","tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"tileBumpContrast":"1","patternStretchers":3,"jointWidthVertical":"5","patternRotateAngle":0,"showSurfaceProfile":false,"tileBumpBrightness":"1","jointWidthHorizontal":"5","surfaceShadowOpacity":"1.01","surfaceHighlightOpacity":"1.01","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":1057,"textures_position_as_position":14},{"id":250,"name":"Douglas Fir Staggered","category":"Wood","imgurl":"\/textures\/20\/04\/douglas-fir-staggered-5ea1eb6b81dfc-1200.jpg","width_mm":1800,"materials":59,"brand":null,"color":"#cbc1b2","sphere":"\/textures\/23\/5\/douglas-fir-staggered-1800-x-2400-mm-nmdfp8-sphere.png","params":{"hue":"0","rows":30,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"59","columns":2,"pxPerMm":0,"randSrc":71725,"trigger":"view","contrast":"1.09","cropType":"new","drawType":"texture","hatchApp":"autocad","randCrop":77403,"randEdge":41606,"randTone":25391,"tileData":"5e4eee48724f8","tileName":"Douglas Fir","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":"1.01","edgeValue":0,"hatchType":"model","jointTint":"#cbb9a0","patternId":7,"tileWidth":"1200","appVersion":"0.9.1","brightness":"1","cornerType":0,"pixelWidth":1687,"saturation":"0.35","shadowBlur":"5","tileHeight":"40","tileStyles":{"a":{"hue":"0","edge":{"scale":"1.01","width":25,"exclude":[],"profile":"fine"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1.09","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","frequency":"0.5","metalness":0,"placement":"random","roughness":0.85,"brightness":"1","bumpInvert":false,"materialId":"59","saturation":"0.35","bumpOpacity":1,"depthBottom":20,"bumpContrast":"3.13","materialWidth":3100,"bumpBrightness":"3.31","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"brick","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":1,"displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"1.4","displacementContrast":1.5,"displacementBrightness":1.5}},"cornerValue":0,"edgeProfile":"fine","fillScaling":true,"hatchJoints":false,"jointLocked":false,"patternName":"staggered","patternAngle":30,"recessJoints":true,"tileMinWidth":"","tileRotation":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"","tileRealWidth":3100,"diffuseOpacity":0.5,"jointRealWidth":null,"patternDimType":"multi","randFinishCrop":5447,"tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"patternStretchers":3,"jointWidthVertical":"20","patternRotateAngle":90,"showSurfaceProfile":false,"jointWidthHorizontal":"0","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":250,"textures_position_as_position":16},{"id":166,"name":"Oak Herringbone","category":"Wood","imgurl":"\/textures\/20\/03\/oak-herringbone-5e80fb40b00c9-1200.jpg","width_mm":4630,"materials":74,"brand":null,"color":"#9c7347","sphere":"\/textures\/23\/5\/oak-herringbone-4630-x-3470-mm-bhialg-sphere.png","params":{"hue":0,"rows":6,"view":"texture","depth":"8","regen":false,"inches":false,"setRes":true,"tileID":"74","columns":4,"jointID":"3","pxPerMm":0,"randSrc":28381,"trigger":"view","cropType":"new","drawType":"texture","hatchApp":"autocad","randCrop":12733,"randEdge":24499,"randTone":42218,"tileData":"5e5141e32b00f","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":"0.17","edgeValue":0,"hatchType":"model","jointData":"5e14eb0bd12ac","jointTint":"#ab7954","jointType":"texture","patternId":3,"tileWidth":"1637.5","variation":0,"cornerType":0,"pixelWidth":3000,"shadowBlur":"5","tileHeight":"409.375","tileStyles":{"a":{"hue":0,"edge":{"scale":"0.17","width":25,"exclude":[],"profile":"handmade"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","frequency":"0.5","metalness":0,"placement":"random","roughness":0.85,"brightness":"1","bumpInvert":false,"materialId":"74","saturation":"1","bumpOpacity":1,"depthBottom":20,"bumpContrast":"1.77","materialWidth":3275,"bumpBrightness":"2.6","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"brick","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":1,"displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"0.52","displacementContrast":"2.07","displacementBrightness":"2.58"}},"cornerValue":0,"edgeProfile":"handmade","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"herringbone","patternAngle":30,"recessJoints":true,"tileMinWidth":"50","tileRotation":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":3275,"diffuseOpacity":0.5,"jointRealWidth":2000,"patternDimType":"multi","randFinishCrop":49562,"tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"patternStretchers":3,"jointWidthVertical":"0","patternRotateAngle":0,"showSurfaceProfile":false,"jointWidthHorizontal":"0","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":166,"textures_position_as_position":17},{"id":727,"name":"Walnut","category":"Wood","imgurl":"\/textures\/20\/11\/walnut-5fc4cb1db4895-1200.jpg","width_mm":3200,"materials":72,"brand":null,"color":"#7d6245","sphere":"\/textures\/23\/5\/walnut-none-3200-x-2263-mm-coba4g-sphere.png","params":{"hue":"0","rows":6,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"72","columns":4,"jointID":"3","pxPerMm":0,"randSrc":29258,"trigger":"displacementBrightness","contrast":"1","cropType":"new","drawType":"texture","hatchApp":"autocad","randCrop":53256,"randEdge":54233,"randTone":71813,"tileData":"","tileName":"Walnut","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":"1.01","edgeValue":0,"hatchType":"model","jointData":"","jointTint":"#FFFFFF","jointType":"texture","patternId":17,"tileWidth":"400","appVersion":"1.1.0","brightness":"1","cornerType":0,"pixelWidth":4862,"saturation":"1","shadowBlur":"5","tileHeight":"100","tileInvert":false,"tileStyles":{"a":{"hue":"0","edge":{"scale":"1.01","width":25,"exclude":[],"profile":"handmade"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","frequency":"0.5","metalness":0,"placement":"random","roughness":0.85,"brightness":"1","bumpInvert":false,"materialId":"72","saturation":"1","sourceType":"single","bumpOpacity":1,"depthBottom":20,"bumpContrast":1.5,"materialWidth":3200,"bumpBrightness":"3.78","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"brick","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":1,"displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"0.52","displacementContrast":1.5,"displacementBrightness":"1.82"}},"cornerValue":0,"edgeProfile":"handmade","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"none","patternAngle":30,"profileWidth":"50","recessJoints":true,"tileAutoBump":true,"tileMinWidth":"50","tileRotation":false,"jointAutoBump":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":3200,"diffuseOpacity":0.5,"jointRealWidth":2000,"patternDimType":"multi","randFinishCrop":91087,"tileSourceType":"single","tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"tileBumpContrast":"1","patternStretchers":3,"jointWidthVertical":"5","patternRotateAngle":0,"showSurfaceProfile":false,"tileBumpBrightness":"1","jointWidthHorizontal":"5","surfaceShadowOpacity":"1.01","surfaceHighlightOpacity":"1.01","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":727,"textures_position_as_position":21},{"id":720,"name":"Douglas Fir","category":"Wood","imgurl":"\/textures\/20\/11\/douglas-fir-5fc4caf11e5ae-1200.jpg","width_mm":3100,"materials":59,"brand":null,"color":"#dbc9ab","sphere":"\/textures\/23\/5\/douglas-fir-none-3100-x-2192-mm-wm7i4x-sphere.png","params":{"hue":"0","rows":6,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"59","columns":4,"jointID":"3","pxPerMm":0,"randSrc":42848,"trigger":"roughness","contrast":"1","cropType":"new","drawType":"texture","hatchApp":"autocad","randCrop":93135,"randEdge":34320,"randTone":23947,"tileData":"","tileName":"Douglas Fir","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":"1.01","edgeValue":0,"hatchType":"model","jointData":"","jointTint":"#FFFFFF","jointType":"texture","patternId":17,"tileWidth":"400","appVersion":"1.1.0","brightness":"1","cornerType":0,"pixelWidth":4861,"saturation":"1","shadowBlur":"5","tileHeight":"100","tileInvert":false,"tileStyles":{"a":{"hue":"0","edge":{"scale":"1.01","width":25,"exclude":[],"profile":"handmade"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","metalness":0,"roughness":"0.57","brightness":"1","bumpInvert":false,"materialId":"59","saturation":"1","sourceType":"single","bumpOpacity":1,"depthBottom":20,"bumpContrast":1.5,"materialWidth":3100,"bumpBrightness":"1.08","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"brick","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":"0.01","displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"0.72","displacementContrast":1.5,"displacementBrightness":1.5}},"cornerValue":0,"edgeProfile":"handmade","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"none","patternAngle":30,"profileWidth":"50","recessJoints":true,"tileAutoBump":true,"tileMinWidth":"50","tileRotation":false,"jointAutoBump":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":3100,"diffuseOpacity":0.5,"jointRealWidth":2000,"patternDimType":"multi","randFinishCrop":5703,"tileSourceType":"single","tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"tileBumpContrast":"1","patternStretchers":3,"jointWidthVertical":"5","patternRotateAngle":0,"showSurfaceProfile":false,"tileBumpBrightness":"1","jointWidthHorizontal":"5","surfaceShadowOpacity":"1.01","surfaceHighlightOpacity":"1.01","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":720,"textures_position_as_position":27},{"id":1214,"name":"Microperforated Acoustic Veneer","category":"Wood","imgurl":"\/textures\/21\/11\/microperforated-acoustic-veneer-61a670d6396de-1200.jpg","width_mm":1555,"materials":423,"brand":null,"color":"#c5a281","sphere":"\/textures\/23\/5\/microperforated-acoustic-veneer-none-800-x-655-mm-ohrh5h-sphere.png","params":{"hue":0,"rows":6,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"423","columns":4,"jointID":"3","product":false,"pxPerMm":0,"randSrc":49222,"trigger":"view","cropType":"stored","drawType":"texture","hatchApp":"autocad","randCrop":17387,"randEdge":92221,"randTone":59565,"tileName":"Microperforated Acoustic Veneer","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":1,"edgeValue":0,"hatchType":"model","jointData":"","jointTint":"#FFFFFF","jointType":"texture","patternId":17,"tileWidth":"400","variation":0,"cornerType":0,"pixelWidth":3000,"shadowBlur":"5","tileHeight":"100","tileStyles":{"a":{"hue":"0","edge":{"scale":1,"width":25,"exclude":[],"profile":"handmade"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1.14","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","frequency":"0.5","metalness":0,"placement":"random","roughness":"0.5","brightness":"1.6","bumpInvert":false,"materialId":"423","saturation":"0.52","sourceType":"single","bumpOpacity":"0.84","depthBottom":20,"bumpContrast":1.5,"materialWidth":800,"bumpBrightness":"3.39","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":false,"materialCategory":"wood","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":"0.15","displacementInvert":false,"displacementOpacity":"0.82","metalnessBrightness":1,"roughnessBrightness":"0.93","displacementContrast":1.5,"displacementBrightness":"2.92"}},"cornerValue":0,"edgeProfile":"handmade","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"none","patternAngle":30,"recessJoints":true,"tileAutoBump":true,"tileMinWidth":"50","tileRotation":false,"jointAutoBump":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":1555,"diffuseOpacity":0.5,"jointRealWidth":2000,"patternDimType":"multi","randFinishCrop":35921,"tileSourceType":"single","tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"tileBumpContrast":"1","patternStretchers":3,"jointWidthVertical":"5","patternRotateAngle":0,"showSurfaceProfile":false,"tileBumpBrightness":"1","jointWidthHorizontal":"5","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":1214,"textures_position_as_position":28},{"id":783,"name":"Walnut","category":"Wood","imgurl":"\/textures\/20\/11\/walnut-5fc4d06533abf-1200.jpg","width_mm":3200,"materials":72,"brand":null,"color":"#534332","sphere":"\/textures\/23\/5\/walnut-none-3200-x-2263-mm-059h4e-sphere.png","params":{"hue":"0","rows":6,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"72","columns":4,"jointID":"3","pxPerMm":0,"randSrc":11767,"trigger":"view","contrast":"1.21","cropType":"stored","drawType":"texture","hatchApp":"autocad","randCrop":66298,"randEdge":39409,"randTone":31533,"tileData":"","tileName":"Walnut","tileTilt":0,"tileTint":"#ffffff","tileType":"texture","edgeScale":"1.01","edgeValue":0,"hatchType":"model","jointData":"","jointTint":"#FFFFFF","jointType":"texture","patternId":17,"tileWidth":"400","appVersion":"1.1.0","brightness":"0.79","cornerType":0,"pixelWidth":4851,"saturation":"0.64","shadowBlur":"5","tileHeight":"100","tileInvert":false,"tileStyles":{"a":{"hue":"0","edge":{"scale":"1.01","width":25,"exclude":[],"profile":"handmade"},"tint":"#ffffff","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1.21","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","metalness":0,"roughness":"0.55","brightness":"0.79","bumpInvert":false,"materialId":"72","saturation":"0.64","sourceType":"single","bumpOpacity":1,"depthBottom":20,"bumpContrast":1.5,"materialWidth":3200,"bumpBrightness":"3.62","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"brick","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":"0.62","displacementInvert":false,"displacementOpacity":"0.92","metalnessBrightness":1,"roughnessBrightness":"0.37","displacementContrast":1.5,"displacementBrightness":"2.04"}},"cornerValue":0,"edgeProfile":"handmade","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"none","patternAngle":30,"profileWidth":"50","recessJoints":true,"tileAutoBump":true,"tileMinWidth":"50","tileRotation":false,"jointAutoBump":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":3200,"diffuseOpacity":0.5,"jointRealWidth":2000,"patternDimType":"multi","randFinishCrop":4923,"tileSourceType":"single","tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"tileBumpContrast":"1","patternStretchers":3,"jointWidthVertical":"5","patternRotateAngle":0,"showSurfaceProfile":false,"tileBumpBrightness":"1","jointWidthHorizontal":"5","surfaceShadowOpacity":"1.01","surfaceHighlightOpacity":"1.01","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":783,"textures_position_as_position":30},{"id":785,"name":"Oak","category":"Wood","imgurl":"\/textures\/20\/11\/oak-5fc4d0c4081c1-1200.jpg","width_mm":3275,"materials":74,"brand":null,"color":"#70491f","sphere":"\/textures\/23\/5\/oak-none-3275-x-2565-mm-4pxvbd-sphere.png","params":{"hue":"0","rows":6,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"74","columns":4,"jointID":"3","pxPerMm":0,"randSrc":47736,"trigger":"roughnessBrightness","contrast":"1.34","cropType":"stored","drawType":"texture","hatchApp":"autocad","randCrop":85990,"randEdge":44820,"randTone":78932,"tileData":"","tileName":"Oak","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":"1.01","edgeValue":0,"hatchType":"model","jointData":"","jointTint":"#FFFFFF","jointType":"texture","patternId":17,"tileWidth":"400","appVersion":"1.1.0","brightness":"0.79","cornerType":0,"pixelWidth":4252,"saturation":"0.88","shadowBlur":"5","tileHeight":"100","tileInvert":false,"tileStyles":{"a":{"hue":"0","edge":{"scale":"1.01","width":25,"exclude":[],"profile":"handmade"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1.34","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","metalness":0,"roughness":"0.54","brightness":"0.79","bumpInvert":false,"materialId":"74","saturation":"0.88","sourceType":"single","bumpOpacity":1,"depthBottom":20,"bumpContrast":"1.52","materialWidth":3275,"bumpBrightness":"3.17","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"brick","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":"0","displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"0","displacementContrast":1.5,"displacementBrightness":"2.01"}},"cornerValue":0,"edgeProfile":"handmade","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"none","patternAngle":30,"profileWidth":"50","recessJoints":true,"tileAutoBump":true,"tileMinWidth":"50","tileRotation":false,"jointAutoBump":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":3275,"diffuseOpacity":0.5,"jointRealWidth":2000,"patternDimType":"multi","randFinishCrop":78060,"tileSourceType":"single","tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"tileBumpContrast":"1","patternStretchers":3,"jointWidthVertical":"5","patternRotateAngle":0,"showSurfaceProfile":false,"tileBumpBrightness":"1","jointWidthHorizontal":"5","surfaceShadowOpacity":"1.01","surfaceHighlightOpacity":"1.01","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":785,"textures_position_as_position":31},{"id":137,"name":"Weathered Timber Staggered","category":"Wood","imgurl":"\/textures\/20\/03\/weathered-timber-staggered-5e80dfae60bb2-1200.jpg","width_mm":1574,"materials":64,"brand":null,"color":"#817a77","sphere":"\/textures\/23\/5\/weathered-timber-staggered-1575-x-2004-mm-ubkles-sphere.png","params":{"hue":0,"rows":21,"view":"texture","depth":"6","regen":false,"inches":false,"setRes":true,"tileID":"64","columns":2,"jointID":"4","pxPerMm":0,"randSrc":64914,"trigger":"bumpContrast","cropType":"new","drawType":"texture","hatchApp":"autocad","randCrop":32865,"randEdge":7975,"randTone":156,"tileData":"5e4f1735d8f70","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":"0.19","edgeValue":0,"hatchType":"model","jointData":"5e14f11e10f18","jointTint":"#8c8c8c","jointType":"texture","patternId":7,"tileWidth":"1000","variation":0,"cornerType":0,"pixelWidth":552,"shadowBlur":"5","tileHeight":"50","tileStyles":{"a":{"hue":0,"edge":{"scale":"0.19","width":25,"exclude":[],"profile":"handmade"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","frequency":"0.5","metalness":0,"placement":"random","roughness":"0.81","brightness":"1","bumpInvert":false,"materialId":"64","saturation":"1","bumpOpacity":1,"depthBottom":20,"bumpContrast":"2.7","materialWidth":3935,"bumpBrightness":"3","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"brick","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":1,"displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"0.99","displacementContrast":1.5,"displacementBrightness":"0.73"}},"cornerValue":0,"edgeProfile":"handmade","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"staggered","patternAngle":30,"recessJoints":true,"tileMinWidth":"","tileRotation":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"","tileRealWidth":3935,"diffuseOpacity":0.5,"jointRealWidth":750,"patternDimType":"multi","randFinishCrop":66577,"tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"patternStretchers":3,"jointWidthVertical":"25","patternRotateAngle":90,"showSurfaceProfile":false,"jointWidthHorizontal":"2","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":137,"textures_position_as_position":34},{"id":814,"name":"Birch Plywood","category":"Wood","imgurl":"\/textures\/20\/12\/birch-plywood-5fd0bffa87982-1200.jpg","width_mm":2439,"materials":161,"brand":null,"color":"#f7e7ce","sphere":"\/textures\/23\/5\/birch-plywood-none-2440-x-2494-mm-g9glnt-sphere.png","params":{"hue":"0","rows":6,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"161","columns":4,"jointID":"3","pxPerMm":0,"randSrc":72942,"trigger":"displacementBrightness","contrast":"1","cropType":"new","drawType":"texture","hatchApp":"autocad","randCrop":86705,"randEdge":85703,"randTone":10813,"tileData":"","tileName":"Birch Plywood","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":"1.01","edgeValue":0,"hatchType":"model","jointData":"","jointTint":"#FFFFFF","jointType":"texture","patternId":17,"tileWidth":"400","appVersion":"1.1.0","brightness":"1","cornerType":0,"pixelWidth":800,"saturation":"1","shadowBlur":"5","tileHeight":"100","tileInvert":false,"tileStyles":{"a":{"hue":"0","edge":{"scale":"1.01","width":25,"exclude":[],"profile":"handmade"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","frequency":"0.5","metalness":0,"placement":"random","roughness":"0.74","brightness":"1","bumpInvert":false,"materialId":"161","saturation":"1","sourceType":"single","bumpOpacity":1,"depthBottom":20,"bumpContrast":1.5,"materialWidth":2440,"bumpBrightness":"2.74","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"brick","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":"0.32","displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"1.34","displacementContrast":1.5,"displacementBrightness":"1.66"}},"cornerValue":0,"edgeProfile":"handmade","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"none","patternAngle":30,"profileWidth":"50","recessJoints":true,"tileAutoBump":true,"tileMinWidth":"50","tileRotation":false,"jointAutoBump":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":2440,"diffuseOpacity":0.5,"jointRealWidth":2000,"patternDimType":"multi","randFinishCrop":16499,"tileSourceType":"single","tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"tileBumpContrast":"1","patternStretchers":3,"jointWidthVertical":"5","patternRotateAngle":0,"showSurfaceProfile":false,"tileBumpBrightness":"1","jointWidthHorizontal":"5","surfaceShadowOpacity":"1.01","surfaceHighlightOpacity":"1.01","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":814,"textures_position_as_position":39},{"id":724,"name":"Charred Timber","category":"Wood","imgurl":"\/textures\/20\/11\/charred-timber-5fc4cb0884792-1200.jpg","width_mm":3430,"materials":68,"brand":null,"color":"#222222","sphere":"\/textures\/23\/5\/charred-timber-none-3430-x-2790-mm-fqyvb5-sphere.png","params":{"hue":"0","rows":6,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"68","columns":4,"jointID":"3","pxPerMm":0,"randSrc":97023,"trigger":"displacementBrightness","contrast":"1","cropType":"new","drawType":"texture","hatchApp":"autocad","randCrop":17771,"randEdge":41735,"randTone":87230,"tileData":"","tileName":"Charred Timber","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":"1.01","edgeValue":0,"hatchType":"model","jointData":"","jointTint":"#FFFFFF","jointType":"texture","patternId":17,"tileWidth":"400","appVersion":"1.1.0","brightness":"1","cornerType":0,"pixelWidth":4862,"saturation":"1","shadowBlur":"5","tileHeight":"100","tileInvert":false,"tileStyles":{"a":{"hue":"0","edge":{"scale":"1.01","width":25,"exclude":[],"profile":"handmade"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","frequency":"0.5","metalness":0,"placement":"random","roughness":0.85,"brightness":"1","bumpInvert":false,"materialId":"68","saturation":"1","sourceType":"single","bumpOpacity":1,"depthBottom":20,"bumpContrast":"1.01","materialWidth":3430,"bumpBrightness":"2.05","metalnessImage":"none","roughnessImage":"none","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"brick","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":1,"displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":1,"displacementContrast":"0.75","displacementBrightness":"1.89"}},"cornerValue":0,"edgeProfile":"handmade","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"none","patternAngle":30,"profileWidth":"50","recessJoints":true,"tileAutoBump":true,"tileMinWidth":"50","tileRotation":false,"jointAutoBump":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":3430,"diffuseOpacity":0.5,"jointRealWidth":2000,"patternDimType":"multi","randFinishCrop":84101,"tileSourceType":"single","tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"tileBumpContrast":"1","patternStretchers":3,"jointWidthVertical":"5","patternRotateAngle":0,"showSurfaceProfile":false,"tileBumpBrightness":"1","jointWidthHorizontal":"5","surfaceShadowOpacity":"1.01","surfaceHighlightOpacity":"1.01","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":724,"textures_position_as_position":42},{"id":726,"name":"White Oiled Timber","category":"Wood","imgurl":"\/textures\/20\/11\/white-oiled-timber-5fc4cb176ba6f-1200.jpg","width_mm":3200,"materials":71,"brand":null,"color":"#e6dfd5","sphere":"\/textures\/23\/5\/white-oiled-timber-none-3200-x-1808-mm-qofysv-sphere.png","params":{"hue":"0","rows":6,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"71","columns":4,"jointID":"3","pxPerMm":0,"randSrc":97708,"trigger":"bumpBrightness","contrast":"1","cropType":"new","drawType":"texture","hatchApp":"autocad","randCrop":14356,"randEdge":22823,"randTone":98558,"tileData":"","tileName":"White Oiled Timber","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":"1.01","edgeValue":0,"hatchType":"model","jointData":"","jointTint":"#FFFFFF","jointType":"texture","patternId":17,"tileWidth":"400","appVersion":"1.1.0","brightness":"1","cornerType":0,"pixelWidth":4225,"saturation":"1","shadowBlur":"5","tileHeight":"100","tileInvert":false,"tileStyles":{"a":{"hue":"0","edge":{"scale":"1.01","width":25,"exclude":[],"profile":"handmade"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","frequency":"0.5","metalness":0,"placement":"random","roughness":"0.52","brightness":"1","bumpInvert":false,"materialId":"71","saturation":"1","sourceType":"single","bumpOpacity":1,"depthBottom":20,"bumpContrast":1.5,"materialWidth":3200,"bumpBrightness":"1.03","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"brick","metalnessOpacity":1,"roughnessOpacity":"0.86","displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":"0.04","displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"0","displacementContrast":1.5,"displacementBrightness":1.5}},"cornerValue":0,"edgeProfile":"handmade","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"none","patternAngle":30,"profileWidth":"50","recessJoints":true,"tileAutoBump":true,"tileMinWidth":"50","tileRotation":false,"jointAutoBump":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":3200,"diffuseOpacity":0.5,"jointRealWidth":2000,"patternDimType":"multi","randFinishCrop":83644,"tileSourceType":"single","tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"tileBumpContrast":"1","patternStretchers":3,"jointWidthVertical":"5","patternRotateAngle":0,"showSurfaceProfile":false,"tileBumpBrightness":"1","jointWidthHorizontal":"5","surfaceShadowOpacity":"1.01","surfaceHighlightOpacity":"1.01","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":726,"textures_position_as_position":45},{"id":154,"name":"White Oiled Timber Staggered","category":"Wood","imgurl":"\/textures\/20\/03\/white-oiled-timber-staggered-5e80f9d77ee33-1200.jpg","width_mm":3200,"materials":71,"brand":null,"color":"#e5ddd3","sphere":"\/textures\/23\/5\/white-oiled-timber-staggered-3200-x-2450-mm-eml2xe-sphere.png","params":{"hue":0,"rows":10,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"71","columns":2,"jointID":"3","pxPerMm":0,"randSrc":86023,"trigger":"roughness","cropType":"new","drawType":"texture","hatchApp":"autocad","randCrop":83935,"randEdge":85473,"randTone":66186,"tileData":"5e511f25b5310","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":"1.01","edgeValue":0,"hatchType":"model","jointData":"5e14eb0bd12ac","jointTint":"#FFFFFF","jointType":"texture","patternId":7,"tileWidth":"1600","variation":0,"cornerType":0,"pixelWidth":3000,"shadowBlur":"5","tileHeight":"240","tileStyles":{"a":{"hue":0,"edge":{"scale":"1.01","width":25,"exclude":[],"profile":"fine"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","frequency":"0.5","metalness":0,"placement":"random","roughness":"0.61","brightness":"1","bumpInvert":false,"materialId":"71","saturation":"1","bumpOpacity":1,"depthBottom":20,"bumpContrast":"3.37","materialWidth":3200,"bumpBrightness":"3.42","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"brick","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":"0.02","displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"0","displacementContrast":1.5,"displacementBrightness":1.5}},"cornerValue":0,"edgeProfile":"fine","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"staggered","patternAngle":30,"recessJoints":true,"tileMinWidth":"50","tileRotation":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":3200,"diffuseOpacity":0.5,"jointRealWidth":2000,"patternDimType":"multi","randFinishCrop":70889,"tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"patternStretchers":3,"jointWidthVertical":"5","patternRotateAngle":0,"showSurfaceProfile":false,"jointWidthHorizontal":"0","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":154,"textures_position_as_position":47},{"id":1117,"name":"Wood Veneer","category":"Wood","imgurl":"\/textures\/21\/07\/wood-veneer-60e743432b8ea-1200.jpg","width_mm":598,"materials":285,"brand":null,"color":"#dcc1a2","sphere":"\/textures\/23\/5\/wood-veneer-none-600-x-1528-mm-bziocf-sphere.png","params":{"hue":"7","rows":6,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"285","columns":3,"jointID":"3","product":false,"pxPerMm":0,"randSrc":39094,"trigger":"roughnessBrightness","contrast":"1","cropType":"new","drawType":"texture","hatchApp":"autocad","randCrop":15886,"randEdge":85296,"randTone":62109,"tileName":"Wood Veneer","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":"1.01","edgeValue":0,"hatchType":"model","jointData":"","jointTint":"#FFFFFF","jointType":"texture","patternId":17,"tileWidth":"400","variation":0,"brightness":"1.46","cornerType":0,"pixelWidth":180,"saturation":"0.53","shadowBlur":"5","tileHeight":"100","tileInvert":false,"tileStyles":{"a":{"hue":"7","edge":{"scale":"1.01","width":25,"exclude":[],"profile":"handmade"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","metalness":0,"roughness":"0.49","brightness":"1.46","bumpInvert":false,"materialId":"285","saturation":"0.53","sourceType":"single","bumpOpacity":1,"depthBottom":20,"bumpContrast":1.5,"materialWidth":600,"bumpBrightness":"2.9","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"wood","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":"0.36","displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"0.22","displacementContrast":1.5,"displacementBrightness":"1.98"}},"cornerValue":0,"edgeProfile":"handmade","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"none","patternAngle":30,"profileWidth":"50","recessJoints":true,"tileAutoBump":true,"tileMinWidth":"50","tileRotation":false,"jointAutoBump":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":600,"diffuseOpacity":0.5,"jointRealWidth":2000,"randFinishCrop":6910,"tileSourceType":"single","tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"tileBumpContrast":"1","patternStretchers":3,"jointWidthVertical":"5","patternRotateAngle":0,"showSurfaceProfile":false,"tileBumpBrightness":"1","jointWidthHorizontal":"5","surfaceShadowOpacity":"1.01","surfaceHighlightOpacity":"1.01","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":1117,"textures_position_as_position":51},{"id":784,"name":"Western Red Cedar","category":"Wood","imgurl":"\/textures\/20\/11\/western-red-cedar-5fc4d08cba232-1200.jpg","width_mm":3229,"materials":73,"brand":null,"color":"#6b5545","sphere":"\/textures\/23\/5\/western-red-cedar-none-3230-x-2284-mm-o42psv-sphere.png","params":{"hue":"0","rows":6,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"73","columns":4,"jointID":"3","pxPerMm":0,"randSrc":59700,"trigger":"roughnessBrightness","contrast":"1.21","cropType":"stored","drawType":"texture","hatchApp":"autocad","randCrop":5294,"randEdge":28816,"randTone":64922,"tileData":"","tileName":"Western Red Cedar","tileTilt":0,"tileTint":"#ffffff","tileType":"texture","edgeScale":"1.01","edgeValue":0,"hatchType":"model","jointData":"","jointTint":"#FFFFFF","jointType":"texture","patternId":17,"tileWidth":"400","appVersion":"1.1.0","brightness":"0.72","cornerType":0,"pixelWidth":4851,"saturation":"0.35","shadowBlur":"5","tileHeight":"100","tileInvert":false,"tileStyles":{"a":{"hue":"0","edge":{"scale":"1.01","width":25,"exclude":[],"profile":"handmade"},"tint":"#ffffff","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1.21","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","metalness":0,"roughness":"0.63","brightness":"0.72","bumpInvert":false,"materialId":"73","saturation":"0.35","sourceType":"single","bumpOpacity":1,"depthBottom":20,"bumpContrast":1.5,"materialWidth":3230,"bumpBrightness":"3.47","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"brick","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":"0.29","displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"0.42","displacementContrast":1.5,"displacementBrightness":"1.83"}},"cornerValue":0,"edgeProfile":"handmade","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"none","patternAngle":30,"profileWidth":"50","recessJoints":true,"tileAutoBump":true,"tileMinWidth":"50","tileRotation":false,"jointAutoBump":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":3230,"diffuseOpacity":0.5,"jointRealWidth":2000,"patternDimType":"multi","randFinishCrop":11471,"tileSourceType":"single","tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"tileBumpContrast":"1","patternStretchers":3,"jointWidthVertical":"5","patternRotateAngle":0,"showSurfaceProfile":false,"tileBumpBrightness":"1","jointWidthHorizontal":"5","surfaceShadowOpacity":"1.01","surfaceHighlightOpacity":"1.01","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":784,"textures_position_as_position":55},{"id":779,"name":"Douglas Fir","category":"Wood","imgurl":"\/textures\/20\/11\/douglas-fir-5fc4cf570832f-1200.jpg","width_mm":3100,"materials":59,"brand":null,"color":"#d5cdc1","sphere":"\/textures\/23\/5\/douglas-fir-none-3100-x-2192-mm-opy9jy-sphere.png","params":{"hue":"0","rows":6,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"59","columns":4,"jointID":"3","pxPerMm":0,"randSrc":13473,"trigger":"roughness","contrast":"1.86","cropType":"stored","drawType":"texture","hatchApp":"autocad","randCrop":65200,"randEdge":31527,"randTone":22963,"tileData":"","tileName":"Douglas Fir","tileTilt":0,"tileTint":"#ffffff","tileType":"texture","edgeScale":"1.01","edgeValue":0,"hatchType":"model","jointData":"","jointTint":"#FFFFFF","jointType":"texture","patternId":17,"tileWidth":"400","appVersion":"1.1.0","brightness":"0.84","cornerType":0,"pixelWidth":4845,"saturation":"0.27","shadowBlur":"5","tileHeight":"100","tileInvert":false,"tileStyles":{"a":{"hue":"0","edge":{"scale":"1.01","width":25,"exclude":[],"profile":"handmade"},"tint":"#ffffff","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1.86","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","frequency":"0.5","metalness":0,"placement":"random","roughness":"0.5","brightness":"0.84","bumpInvert":false,"materialId":"59","saturation":"0.27","sourceType":"single","bumpOpacity":1,"depthBottom":20,"bumpContrast":1.5,"materialWidth":3100,"bumpBrightness":1.5,"metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"brick","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":"0.07","displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"0.6","displacementContrast":1.5,"displacementBrightness":1.5}},"cornerValue":0,"edgeProfile":"handmade","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"none","patternAngle":30,"profileWidth":"50","recessJoints":true,"tileAutoBump":true,"tileMinWidth":"50","tileRotation":false,"jointAutoBump":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":3100,"diffuseOpacity":0.5,"jointRealWidth":2000,"patternDimType":"multi","randFinishCrop":55299,"tileSourceType":"single","tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"tileBumpContrast":"1","patternStretchers":3,"jointWidthVertical":"5","patternRotateAngle":0,"showSurfaceProfile":false,"tileBumpBrightness":"1","jointWidthHorizontal":"5","surfaceShadowOpacity":"1.01","surfaceHighlightOpacity":"1.01","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":779,"textures_position_as_position":59},{"id":1700,"name":"Oak Veneered MDF","category":"Wood","imgurl":"\/textures\/23\/2\/oak-veneermdf-none-rz7xim-1200.jpg","width_mm":550,"materials":1307,"brand":null,"color":"#d1a778","sphere":"\/textures\/23\/5\/oak-veneered-mdf-none-550-x-400-mm-wzp76p-sphere.png","params":{"hue":"0","rows":6,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"1307","columns":4,"jointID":3,"product":false,"pxPerMm":0,"randSrc":20388,"trigger":"view","cropType":"stored","drawType":"texture","hatchApp":"autocad","randCrop":65787,"randEdge":89089,"randTone":54924,"tileTilt":0,"tileTint":"#FFFFFF","edgeScale":1,"edgeValue":0,"hatchType":"model","jointTint":"#FFFFFF","jointType":0,"patternId":17,"tileWidth":400,"variation":0,"cornerType":0,"pixelWidth":3000,"shadowBlur":"5","tileHeight":100,"tileStyles":{"a":{"hue":0,"edge":{"scale":1,"width":25,"exclude":[],"profile":"handmade"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"profile":{"gap":0,"reps":5},"contrast":"1","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","frequency":"0.5","metalness":0,"placement":"random","roughness":"0.53","brightness":"1","bumpInvert":false,"materialId":"1307","saturation":"1","bumpOpacity":1,"depthBottom":20,"bumpContrast":1.5,"materialWidth":400,"bumpBrightness":"2.12","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"brick","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":"0.43","displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"0.44","displacementContrast":1.5,"displacementBrightness":"1.64"}},"cornerValue":0,"edgeProfile":"handmade","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"None","patternAngle":30,"recessJoints":true,"tileAutoBump":false,"tileMinWidth":"50","tileRotation":false,"jointAutoBump":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"50","tileRealWidth":2000,"diffuseOpacity":0.5,"jointRealWidth":2000,"randFinishCrop":70993,"tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"patternStretchers":3,"jointWidthVertical":"5","patternRotateAngle":90,"showSurfaceProfile":false,"jointWidthHorizontal":"5","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":1700,"textures_position_as_position":61},{"id":171,"name":"Knotted Timber Staggered","category":"Wood","imgurl":"\/textures\/20\/03\/knotted-timber-staggered-5e80fbeb631e8-1200.jpg","width_mm":1995,"materials":44,"brand":null,"color":"#dab68e","sphere":"\/textures\/23\/5\/knotted-timber-staggered-1995-x-2000-mm-bnfyty-sphere.png","params":{"hue":0,"rows":19,"view":"texture","regen":false,"inches":false,"setRes":true,"tileID":"44","columns":2,"jointID":"3","pxPerMm":0,"randSrc":57390,"trigger":"bumpBrightness","cropType":"new","drawType":"texture","hatchApp":"autocad","randCrop":55784,"randEdge":41332,"randTone":22728,"tileData":"5e18fdcd9fbc3","tileTilt":0,"tileTint":"#FFFFFF","tileType":"texture","edgeScale":"0.19","edgeValue":0,"hatchType":"model","jointData":"5e14eb0bd12ac","jointTint":"#d3b285","jointType":"texture","patternId":7,"tileWidth":"1000","variation":0,"cornerType":0,"pixelWidth":2976,"shadowBlur":"5","tileHeight":"100","tileStyles":{"a":{"hue":0,"edge":{"scale":"0.19","width":25,"exclude":[],"profile":"handmade"},"tint":"#FFFFFF","finish":{"width":800},"invert":false,"rotate":false,"imgType":"texture","profile":{"gap":0,"reps":5},"contrast":"1","depthTop":255,"bumpEdges":true,"bumpImage":"grayscale","frequency":"0.5","metalness":0,"placement":"random","roughness":0.85,"brightness":"1","bumpInvert":false,"materialId":"44","saturation":"1","bumpOpacity":1,"depthBottom":20,"bumpContrast":"1.51","materialWidth":2000,"bumpBrightness":"1.81","metalnessImage":"none","roughnessImage":"grayscale","metalnessInvert":false,"roughnessInvert":true,"materialCategory":"brick","metalnessOpacity":1,"roughnessOpacity":1,"displacementEdges":true,"displacementImage":"grayscale","metalnessContrast":1,"roughnessContrast":1,"displacementInvert":false,"displacementOpacity":1,"metalnessBrightness":1,"roughnessBrightness":"1.2","displacementContrast":1.5,"displacementBrightness":1.5}},"cornerValue":0,"edgeProfile":"handmade","fillScaling":true,"hatchJoints":false,"jointLocked":true,"patternName":"staggered","patternAngle":30,"recessJoints":true,"tileMinWidth":"","tileRotation":false,"jointRotation":false,"selectedTiles":[],"shadowOpacity":"0.2","showEdgeDepth":true,"tileMinHeight":"","tileRealWidth":2000,"diffuseOpacity":0.5,"jointRealWidth":2000,"patternDimType":"multi","randFinishCrop":41641,"tonalVariation":"0.25","tileUploadWidth":null,"additionalStyles":false,"jointdepthBottom":0,"showPatternHatch":true,"patternStretchers":3,"jointWidthVertical":"5","patternRotateAngle":90,"showSurfaceProfile":false,"jointWidthHorizontal":"0","patternAdditionalInteger1":3},"brands_name":null,"brands_website_link":null,"brands_logo":null,"textures_position_as_texture":171,"textures_position_as_position":64}],"status":"success"}    });
+
+    /**
+     * This function is called when the user clicks on the brand filter
+     * @type {HTMLElement}
+     */
+    var brandFilter = document.getElementById("filter-brand");
+    if (brandFilter) brandFilter.onclick = function(){
+        if (artx.brandMenu) {
+            // If the element already exists, display it and reposition it
+            artx.brandMenu.style.display = "flex";
+            artx.brandMenu.style.left = brandFilter.getBoundingClientRect().left+"px";
+            artx.brandMenu.style.top = brandFilter.getBoundingClientRect().top+"px";
+            ensureElementInWindow(artx.brandMenu);
+        } else {
+            // Create the menu
+            let brandMenu = artx.createBrandMenu(texturesDatabox, brandFilter)
+            artx.brandMenu = brandMenu;
+        }
+    }
+
+    /**
+     * This function is called when the user clicks on the category filter
+     * @type {HTMLElement}
+     */
+    var catFilter = document.getElementById("filter-cats");
+    catFilter.onclick = function(){
+        if(artx.categoryMenu) {
+            // If the element already exists, display it and reposition it
+            artx.categoryMenu.style.display = "flex";
+            artx.categoryMenu.style.left = catFilter.getBoundingClientRect().left+"px";
+            artx.categoryMenu.style.top = catFilter.getBoundingClientRect().top+"px";
+            ensureElementInWindow(artx.categoryMenu);
+        } else {
+            // Create the menu
+            let categoryMenu = artx.createCatMenu(texturesDatabox, catFilter)
+            artx.categoryMenu = categoryMenu;
+        }
+    }
+</script>
+</div>
+<div id="footer-container" class="footer column-container">
+<div class="column">
+<div class="footer-above row">
+<div class="footer-text row">
+<p>Architextures (ARTX), is a library of high quality seamless textures for use in architectural drawings and 3D models. All textures on the site are procedural meaning the dimensions, patterns, colours and more can be edited using <a href="/create">Architextures Create</a>, our custom-built web app for creating seamless textures. All textures can be downloaded free of charge for educational and personal use. Textures can be used in commercial work by users with a <a href="/pro">Pro</a> subscription subject to the <a href="/terms">Terms of Use</a>. By using the Architextures website you agree to the comply with these <a href="/terms">Terms of Use.</a> Architextures uses cookies for core functions and analytics. By using the website you agree to the use these cookies. Further details about how we use cookies can be found <a href="/privacy">here</a>.</p>
+</div>
+<div class="footer-links-container">
+<nav class="footer-nav row">
+<b>Materials</b>
+<ul>
+<li><a href="/textures/category/brick">Brick</a></li>
+<li><a href="/textures/category/concrete">Concrete</a></li>
+<li><a href="/textures/category/metal">Metal</a></li>
+<li><a href="/textures/category/stone">Stone</a></li>
+<li><a href="/textures/category/wood">Wood</a></li>
+<li><a href="/textures/category/terrazzo">Terrazzo</a></li>
+<li><a href="/textures/category/fabric">Fabric</a></li>
+<li><a href="/textures/category/carpet">Carpet</a></li>
+<li><a href="/textures/category/wallpaper">Wallpaper</a></li>
+</ul>
+</nav>
+<nav class="footer-nav row">
+<b>Assets</b>
+<ul>
+<li><a href="/create">Create</a></li>
+<li><a href="/textures">Seamless Textures</a></li>
+<li><a href="/textures/type/pbr">PBR Textures</a></li>
+<li><a href="/hatches">CAD &amp; Revit Hatches</a></li>
+</ul>
+</nav>
+<nav class="footer-nav row">
+<b>Documentation</b>
+<ul>
+<li><a href="/page/user-guide">User Guide</a></li>
+<li><a href="/page/updates">Updates</a></li>
+<li><a href="/page/architextures-for-sketchup-guide">SketchUp Extension</a></li>
+<li><a href="/page/architextures-for-revit">Revit Add-in</a></li>
+
+</ul>
+</nav>
+<nav class="footer-nav row">
+<b>Architextures</b>
+<ul>
+<li><a href="/about">About</a></li>
+<li><a href="/about">Contact</a></li>
+<li><a href="/pro">Get a Pro Account</a></li>
+<li><a href="/manufacturers">For Manufacturers</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="below-footer row outline sh cv">
+<div class="copyright-notice">© Architextures 2024</div>
+<img id="logo" alt="ARTX, the Architextures logo" src="/img/artx-logo.svg">
+</div>
+</div>
+</div> </div>
+</div>
+</body>
+</html>
